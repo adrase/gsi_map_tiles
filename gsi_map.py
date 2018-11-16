@@ -4,6 +4,7 @@ import shutil
 import urllib
 import Image
 
+#convert degrees to tile column and row
 def deg2num(lat_deg, lon_deg, zoom):
   lat_rad = math.radians(lat_deg)
   n = 2.0 ** zoom
@@ -22,6 +23,7 @@ lon_min = 135.475992
 lat_max = 34.737163
 lon_max = 135.575992
 
+#generate tile range
 def tile_range(lat_min, lon_min, lat_max, lon_max, zoom):
     x_min, y_max = deg2num(lat_min,lon_min,zoom)
     x_max, y_min = deg2num(lat_max,lon_max,zoom)
