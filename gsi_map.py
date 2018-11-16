@@ -66,6 +66,7 @@ for x in range(x_min,x_max):
     os.chdir(zoom_dir)
     i += 256
     j = 0
+#save final image
 new_img.save("out.png")
 
 
