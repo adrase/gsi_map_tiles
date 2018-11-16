@@ -1,5 +1,5 @@
-###Simple script for collecting map tile from japanese gsi map service
-Idea was simple - collect japanese map tiles and join them into one, big fancy map. If you have enough disk space and time you can make a detailed, wall size map of Mount Fuji ;) However, I limited myself to A1 size picture.
+### Simple script for collecting map tile from japanese gsi map service
+Idea was simple - collect japanese map tiles and join them into one, big fancy map. If you have enough disk space and time you can make a detailed, kanji labelled, wall size map of Mount Fuji ;) However, I limited myself to A1 size picture.
 
 Single map tile looks like this: 
 ![](https://maps.gsi.go.jp/xyz/std/15/29265/12345.png)
